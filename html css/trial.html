@@ -1,0 +1,140 @@
+<html>
+    <style>
+    body{
+        /* adj */
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+        width: 100vw;
+    }
+    .orange{
+        height: 10%;
+        width: 10%;
+        min-width: 600px;
+        min-height: 100px;
+        display: block;
+        background:   rgb(245, 130, 7);
+    }
+    .white{
+        height: 10%;
+        width : 10%;
+        min-width: 600px;
+        min-height: 100px;
+        display: block;
+        background-color: rgb(255, 255, 255);
+    }
+    .chakra{
+        /* ambbi */
+        animation: rotate 4s linear infinite;
+        margin : 10px auto;
+        border : 4px solid #000080;
+        border-radius: 50%;
+        height: 96px;
+        width: 96px;
+    }
+    @keyframes rotate{
+        0% {
+            transform: rotate(0deg);
+        }
+        100%{
+            transform: rotate(180deg);
+        }
+    }
+    .chakra li{
+        border: 1px solid #000080;
+        list-style: none;
+        width: 94%;
+        position: relative;
+    }
+    li:nth-child(1)
+    {
+        top: 47px;
+        transform: rotate(15deg);
+    }
+    li:nth-child(2)
+    {
+        top: 45px;
+        transform: rotate(30deg);
+    }li:nth-child(3)
+    {
+        top: 43px;
+        transform: rotate(45deg);
+    }
+    li:nth-child(4)
+    {
+        top: 41px;
+        transform: rotate(60deg);
+    }li:nth-child(5)
+    {
+        top: 39px;
+        transform: rotate(75deg);
+    }
+    li:nth-child(6)
+    {
+        top: 37px;
+        transform: rotate(90deg);
+    }
+    li:nth-child(7)
+    {
+        top: 35px;
+        transform: rotate(105deg);
+    }
+    li:nth-child(8)
+    {
+        top: 33px;
+        transform: rotate(120deg);
+    }
+    li:nth-child(9)
+    {
+        top: 31px;
+        transform: rotate(135deg);
+    }li:nth-child(10)
+    {
+        top: 29px;
+        transform: rotate(150deg);
+    }li:nth-child(11)
+    {
+        top: 27px;
+        transform: rotate(165deg);
+    }li:nth-child(12)
+    {
+        top: 25px;
+        transform: rotate(180deg);
+    }
+
+    .green{
+        height: 10%;
+        width : 10%;
+        min-width: 600px;
+        min-height: 100px;
+        display: block;
+        background-color: rgb(11, 250, 11);
+    }
+    </style>
+    
+    <body>
+        <div class="chakra_row">
+            <div class="orange"></div>
+           
+                <div class="chakra">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+
+                </div>
+            
+            <div class="green"></div>
+        </div>
+       
+    </body>
+</html>

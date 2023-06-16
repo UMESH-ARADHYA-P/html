@@ -1,0 +1,138 @@
+ 
+<html>
+    <head>
+        flage
+    </head>
+    <body>
+        <style>
+            .container{
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50% ,-50%);
+                height: fit-content;
+            }
+            .orange{
+                height: 100px;
+                width: 100px;
+                background-color: rgb(228, 113, 5);
+                animation: movex 1s 1s forwards;
+            }
+            .white{
+                height: 100px;
+                width: 100px;
+                background-color: rgb(248, 247, 247);
+                animation: movex 1s 1s forwards;
+            }
+            .green{
+                height: 100px;
+                width: 100px;
+                background-color: rgb(11, 242, 46);
+                animation: movex 1s 1s forwards;
+            }
+            .chakra li {
+        list-style: none;
+        width: 94px;
+        left:50% ;
+        top :150px;
+        border: 1px solid #000080;
+        position: fixed;
+        animation: rotate 1s 1s 
+      }
+
+      li:nth-child(1) {
+        top: 47px;
+      }
+
+      li:nth-child(2) {
+        top: 45px;
+        transform: rotate(15deg);
+      }
+
+      li:nth-child(3) {
+        top: 43px;
+        transform: rotate(30deg);
+      }
+
+      li:nth-child(4) {
+        top: 41px;
+        transform: rotate(45deg);
+      }
+
+      li:nth-child(5) {
+        top: 39px;
+        transform: rotate(60deg);
+      }
+
+      li:nth-child(6) {
+        top: 37px;
+        transform: rotate(75deg);
+      }
+
+      li:nth-child(7) {
+        top: 35px;
+        transform: rotate(90deg);
+      }
+
+      li:nth-child(8) {
+        top: 33px;
+        transform: rotate(105deg);
+      }
+      li:nth-child(9) {
+        top: 31px;
+        transform: rotate(120deg);
+      }
+
+      li:nth-child(10) {
+        top: 29px;
+        transform: rotate(135deg);
+      }
+      li:nth-child(11) {
+        top: 27px;
+        transform: rotate(150deg);
+      }
+
+      li:nth-child(12) {
+        top: 25px;
+        transform: rotate(165deg);
+      }
+            @keyframes movex {
+                to{
+                    width: 400px;
+                }
+            }
+                            
+                @keyframes rotate {
+                0% {
+                    transform: rotate(0deg);
+                }
+                100% {
+                    transform: rotate(180deg);
+                }
+                }
+        </style>
+        <div class=" container">
+            <div class = "orange"> </div>
+            <div class="white"></div>
+            <div class="chakra">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+              </div>
+            <div class="green"></div>
+            
+            
+
+
+        </div>
+    </body>
+</html>
